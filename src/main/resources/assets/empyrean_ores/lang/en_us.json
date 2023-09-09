@@ -1,3 +1,12 @@
 {
-  "item.empyrean_ores.low_carbon_steel_ingot": "Low Carbon Steel Block"
+  "item.empyrean_ores.low_carbon_steel_ingot": "Low Carbon Steel Ingot",
+  "item.empyrean_ores.mid_carbon_steel_ingot": "Mid Carbon Steel Ingot",
+  "item.empyrean_ores.high_carbon_steel_ingot": "High Carbon Steel Ingot",
+
+
+  "block.empyrean_ores.low_carbon_steel_block": "Low Carbon Steel Block",
+
+
+
+  "itemGroup.empyrean_tab": "Empyrean Ores"
 }
