@@ -3,10 +3,25 @@
   "item.empyrean_ores.mid_carbon_steel_ingot": "Mid Carbon Steel Ingot",
   "item.empyrean_ores.high_carbon_steel_ingot": "High Carbon Steel Ingot",
 
+  "item.empyrean_ores.steel_helmet": "Steel Helmet",
+  "item.empyrean_ores.steel_chestplate": "Steel Chestplate",
+  "item.empyrean_ores.steel_leggings": "Steel Leggings",
+  "item.empyrean_ores.steel_boots": "Steel Boots",
+
+  "item.empyrean_ores.steel_pickaxe": "Steel Pickaxe",
+  "item.empyrean_ores.steel_axe": "Steel Axe",
+  "item.empyrean_ores.steel_hoe": "Steel Hoe",
+  "item.empyrean_ores.steel_shovel": "Steel Shovel",
+  "item.empyrean_ores.steel_sword": "Steel Sword",
+
 
   "block.empyrean_ores.low_carbon_steel_block": "Low Carbon Steel Block",
+  "block.empyrean_ores.mid_carbon_steel_block": "Mid Carbon Steel Block",
+  "block.empyrean_ores.high_carbon_steel_block": "High Carbon Steel Block",
 
-
+  "item.empyrean_ores.mandalorian_helmet": "Helmet of §l§9The Mandalor",
+  "tooltip.empyrean_ores.mandalorian_helmet.tooltip.shift": "This mandalorian helmet gives you the power of Mandalore",
+  "tooltip.empyrean_ores.mandalorian_helmet.tooltip": "Press §lSHIFT§r for more information",
 
   "itemGroup.empyrean_tab": "Empyrean Ores"
 }

@@ -23,7 +23,15 @@ public class ModBlocks {
     //Put your blocks here
     public static final RegistryObject<Block> LOW_CARBON_STEEL_BLOCK = registerBlock("low_carbon_steel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-            .strength(4f,7f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+            .strength(3f,7f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> MID_CARBON_STEEL_BLOCK = registerBlock("mid_carbon_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,7f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> HIGH_CARBON_STEEL_BLOCK = registerBlock("high_carbon_steel_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(7f,9f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
 
     //Register helper methods
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
