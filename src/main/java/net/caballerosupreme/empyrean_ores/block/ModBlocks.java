@@ -21,6 +21,16 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, EmpyreanOres.MOD_ID);
 
     //Put your blocks here
+    //ALUMINUM
+    public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f,4f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //STEEL
     public static final RegistryObject<Block> LOW_CARBON_STEEL_BLOCK = registerBlock("low_carbon_steel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
             .strength(3f,7f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
@@ -32,6 +42,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> HIGH_CARBON_STEEL_BLOCK = registerBlock("high_carbon_steel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(7f,9f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //RUBY
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,7f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
 
     //Register helper methods
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

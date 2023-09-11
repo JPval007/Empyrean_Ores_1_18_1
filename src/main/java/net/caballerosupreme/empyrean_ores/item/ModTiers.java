@@ -14,6 +14,11 @@ import net.minecraftforge.common.TierSortingRegistry;
 import java.util.List;
 
 public class ModTiers {
+    //Aluminum Tier
+    public static final Tier ALUMINUM_TIER = TierSortingRegistry.registerTier(
+            new ForgeTier(Tiers.STONE.getLevel(), 200, 4.0F, 1.0F, 8
+                    , ModTags.Blocks.ALUMINUM_TIER_TAG, ()->Ingredient.of( ModItems.ALUMINUM_INGOT.get())),
+            new ResourceLocation(EmpyreanOres.MOD_ID, "aluminum_tier"),List.of(Tiers.STONE), List.of(Tiers.IRON));
 
     //Steel properties
     public static final Tier STEEL_TIER = TierSortingRegistry.registerTier(

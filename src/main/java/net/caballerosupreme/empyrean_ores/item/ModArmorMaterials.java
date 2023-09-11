@@ -13,9 +13,12 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    STEEL("steel", 20, new int[]{3, 6, 7, 3}, 15, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> {
-        return Ingredient.of(ModItems.MID_CARBON_STEEL_INGOT.get());
-    });
+    ALUMINUM ("aluminum", 9, new int[]{1, 2, 3, 2}, 8,
+            SoundEvents.ARMOR_EQUIP_CHAIN, 0.0F, 0.0F,
+            () -> { return Ingredient.of(ModItems.ALUMINUM_INGOT.get()); }),
+    STEEL("steel", 20, new int[]{3, 6, 7, 3}, 15,
+            SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F,
+            () -> { return Ingredient.of(ModItems.MID_CARBON_STEEL_INGOT.get()); });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

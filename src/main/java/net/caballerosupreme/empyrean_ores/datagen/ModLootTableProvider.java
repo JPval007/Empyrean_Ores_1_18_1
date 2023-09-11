@@ -21,7 +21,7 @@ import java.util.function.Supplier;
 
 public class ModLootTableProvider extends LootTableProvider {
     private final List<Pair<Supplier<Consumer<BiConsumer<ResourceLocation, LootTable.Builder>>>, LootContextParamSet>>
-            loot_tables = ImmutableList.of(Pair.of(ModBlockLootTables::new, LootContextParamSets.BLOCK));
+            loot_tables = ImmutableList.of(Pair.of(ModBlockLootTables::new, LootContextParamSets.BLOCK)); //add the entity or chest table nexto to Pair.of()
 
     public ModLootTableProvider(DataGenerator pGenerator) {
         super(pGenerator);

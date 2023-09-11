@@ -18,5 +18,9 @@ public class DataGenerators {
         generator.addProvider(new ModRecipeProvider(generator));
         //Data generator for Block Loot Tables
         generator.addProvider(new ModLootTableProvider(generator));
+        //Data generator for items
+        generator.addProvider(new ModItemModelProvider(generator, existingFileHelper));
+        //Data generator for blockstates
+        generator.addProvider(new ModBlocksStateProvider(generator, existingFileHelper));
     }
 }

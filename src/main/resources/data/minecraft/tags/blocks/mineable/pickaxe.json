@@ -3,7 +3,10 @@
   "values": [
     "empyrean_ores:low_carbon_steel_block",
     "empyrean_ores:mid_carbon_steel_block",
-    "empyrean_ores:high_carbon_steel_block"
-
+    "empyrean_ores:high_carbon_steel_block",
+    "empyrean_ores:ruby_ore",
+    "empyrean_ores:ruby_block",
+    "empyrean_ores:aluminum_ore",
+    "empyrean_ores:aluminum_block"
   ]
 }

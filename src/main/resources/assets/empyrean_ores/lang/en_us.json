@@ -23,5 +23,46 @@
   "tooltip.empyrean_ores.mandalorian_helmet.tooltip.shift": "This mandalorian helmet gives you the power of Mandalore",
   "tooltip.empyrean_ores.mandalorian_helmet.tooltip": "Press §lSHIFT§r for more information",
 
+  "item.empyrean_ores.ruby": "Ruby",
+  "block.empyrean_ores.ruby_block": "Block of Ruby",
+  "block.empyrean_ores.ruby_ore": "Ruby Ore",
+
+  "item.empyrean_ores.sapphire": "Sapphire",
+
+  "item.empyrean_ores.opal": "Opal",
+
+  "item.empyrean_ores.citrine": "Citrine",
+
+  "item.empyrean_ores.topaz": "Violet Topaz",
+
+  "item.empyrean_ores.raw_titanium": "Titanite",
+  "item.empyrean_ores.titanium_ingot": "Titanium Ingot",
+
+  "item.empyrean_ores.raw_zircon": "Raw Zircon",
+  "item.empyrean_ores.zircon": "Zircon",
+
+  "item.empyrean_ores.raw_tungsten": "Wolframite",
+  "item.empyrean_ores.tungsten_ingot": "Tungsten Ingot",
+
+  "item.empyrean_ores.raw_aluminum": "Bauxite",
+  "item.empyrean_ores.aluminum_ingot": "Aluminum Ingot",
+  "block.empyrean_ores.aluminum_block": "Block of Aluminum",
+  "block.empyrean_ores.aluminum_ore": "Aluminum Ore",
+  "item.empyrean_ores.aluminum_helmet": "Aluminum Helmet",
+  "item.empyrean_ores.aluminum_chestplate": "Aluminum Chestplate",
+  "item.empyrean_ores.aluminum_leggings": "Aluminum Leggings",
+  "item.empyrean_ores.aluminum_boots": "Aluminum Boots",
+
+  "item.empyrean_ores.aluminum_pickaxe": "Aluminum Pickaxe",
+  "item.empyrean_ores.aluminum_axe": "Aluminum Axe",
+  "item.empyrean_ores.aluminum_hoe": "Aluminum Hoe",
+  "item.empyrean_ores.aluminum_shovel": "Aluminum Shovel",
+  "item.empyrean_ores.aluminum_sword": "Aluminum Sword",
+
+  "item.empyrean_ores.adamite": "Adamite",
+  "item.empyrean_ores.adamantite_ingot": "Adamantite Ingot",
+
+
+
   "itemGroup.empyrean_tab": "Empyrean Ores"
 }
