@@ -1,4 +1,4 @@
-package net.caballerosupreme.empyrean_ores.item.custom;
+package net.caballerosupreme.empyrean_ores.item;
 
 import net.caballerosupreme.empyrean_ores.EmpyreanOres;
 import net.caballerosupreme.empyrean_ores.item.ModItems;
