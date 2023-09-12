@@ -28,21 +28,35 @@
   "block.empyrean_ores.ruby_ore": "Ruby Ore",
 
   "item.empyrean_ores.sapphire": "Sapphire",
+  "block.empyrean_ores.sapphire_block": "Block of Sapphire",
+  "block.empyrean_ores.sapphire_ore": "Sapphire Ore",
 
   "item.empyrean_ores.opal": "Opal",
+  "block.empyrean_ores.opal_block": "Block of Opal",
+  "block.empyrean_ores.opal_ore": "Opal Ore",
 
   "item.empyrean_ores.citrine": "Citrine",
+  "block.empyrean_ores.citrine_block": "Block of Citrine",
+  "block.empyrean_ores.citrine_ore": "Citrine Ore",
 
   "item.empyrean_ores.topaz": "Violet Topaz",
+  "block.empyrean_ores.topaz_block": "Block of Topaz",
+  "block.empyrean_ores.topaz_ore": "Topaz Ore",
 
   "item.empyrean_ores.raw_titanium": "Titanite",
   "item.empyrean_ores.titanium_ingot": "Titanium Ingot",
+  "block.empyrean_ores.titanium_block": "Block of Titanium",
+  "block.empyrean_ores.titanium_ore": "Titanium Ore",
 
   "item.empyrean_ores.raw_zircon": "Raw Zircon",
   "item.empyrean_ores.zircon": "Zircon",
+  "block.empyrean_ores.zircon_block": "Block of Zircon",
+  "block.empyrean_ores.zircon_ore": "Zircon Ore",
 
   "item.empyrean_ores.raw_tungsten": "Wolframite",
   "item.empyrean_ores.tungsten_ingot": "Tungsten Ingot",
+  "block.empyrean_ores.tungsten_block": "Block of Tungsten",
+  "block.empyrean_ores.tungsten_ore": "Tungsten Ore",
 
   "item.empyrean_ores.raw_aluminum": "Bauxite",
   "item.empyrean_ores.aluminum_ingot": "Aluminum Ingot",
@@ -61,7 +75,8 @@
 
   "item.empyrean_ores.adamite": "Adamite",
   "item.empyrean_ores.adamantite_ingot": "Adamantite Ingot",
-
+  "block.empyrean_ores.adamite_block": "Block of Adamite",
+  "block.empyrean_ores.adamantite_block": "Block of Adamantite",
 
 
   "itemGroup.empyrean_tab": "Empyrean Ores"

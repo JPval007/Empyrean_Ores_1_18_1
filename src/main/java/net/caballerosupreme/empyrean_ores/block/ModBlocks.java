@@ -52,6 +52,79 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
 
+    //Citrine
+    public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f,5f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //SAPPHIRE
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(7f,10f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //OPAL
+    public static final RegistryObject<Block> OPAL_BLOCK = registerBlock("opal_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(8f,13f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> OPAL_ORE = registerBlock("opal_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f,7f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //TITANIUM
+    public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(5f,6f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //TOPAZ
+    public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f,5f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,3f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //TUNGSTEN
+    public static final RegistryObject<Block> TUNGSTEN_BLOCK = registerBlock("tungsten_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f,15f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> TUNGSTEN_ORE = registerBlock("tungsten_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,5f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //ZIRCON
+    public static final RegistryObject<Block> ZIRCON_BLOCK = registerBlock("zircon_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(4f,5f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    public static final RegistryObject<Block> ZIRCON_ORE = registerBlock("zircon_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f,4f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //ADAMITE
+    public static final RegistryObject<Block> ADAMITE_BLOCK = registerBlock("adamite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f,16f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
+    //ADAMANTITE
+    public static final RegistryObject<Block> ADAMANTITE_BLOCK = registerBlock("adamantite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f,17f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
+
 
     //Register helper methods
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

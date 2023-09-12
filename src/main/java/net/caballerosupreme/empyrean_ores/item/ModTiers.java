@@ -25,5 +25,6 @@ public class ModTiers {
             new ForgeTier(2, 800, 8.0f, 2.0f, 15
                     , ModTags.Blocks.STEEL_TIER_TAG,()->Ingredient.of(ModItems.HIGH_CARBON_STEEL_INGOT.get())),
             new ResourceLocation(EmpyreanOres.MOD_ID, "steel_tier"), List.of(Tiers.IRON), List.of(Tiers.DIAMOND));
+
     //These multiply with the ModItem class modifiers
 }
