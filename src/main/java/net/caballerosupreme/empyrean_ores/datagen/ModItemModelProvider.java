@@ -43,6 +43,46 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ALUMINUM_LEGGINGS.get());
         simpleItem(ModItems.ALUMINUM_BOOTS.get());
 
+        handheldItem(ModItems.SAPPHIRE_AXE.get());
+        handheldItem(ModItems.SAPPHIRE_HOE.get());
+        handheldItem(ModItems.SAPPHIRE_PICKAXE.get());
+        handheldItem(ModItems.SAPPHIRE_SHOVEL.get());
+        handheldItem(ModItems.SAPPHIRE_SWORD.get());
+        simpleItem(ModItems.SAPPHIRE_HELMET.get());
+        simpleItem(ModItems.SAPPHIRE_CHESTPLATE.get());
+        simpleItem(ModItems.SAPPHIRE_LEGGINGS.get());
+        simpleItem(ModItems.SAPPHIRE_BOOTS.get());
+
+        handheldItem(ModItems.OPAL_AXE.get());
+        handheldItem(ModItems.OPAL_HOE.get());
+        handheldItem(ModItems.OPAL_PICKAXE.get());
+        handheldItem(ModItems.OPAL_SHOVEL.get());
+        handheldItem(ModItems.OPAL_SWORD.get());
+        simpleItem(ModItems.OPAL_HELMET.get());
+        simpleItem(ModItems.OPAL_CHESTPLATE.get());
+        simpleItem(ModItems.OPAL_LEGGINGS.get());
+        simpleItem(ModItems.OPAL_BOOTS.get());
+
+        handheldItem(ModItems.TUNGSTEN_AXE.get());
+        handheldItem(ModItems.TUNGSTEN_HOE.get());
+        handheldItem(ModItems.TUNGSTEN_PICKAXE.get());
+        handheldItem(ModItems.TUNGSTEN_SHOVEL.get());
+        handheldItem(ModItems.TUNGSTEN_SWORD.get());
+        simpleItem(ModItems.TUNGSTEN_HELMET.get());
+        simpleItem(ModItems.TUNGSTEN_CHESTPLATE.get());
+        simpleItem(ModItems.TUNGSTEN_LEGGINGS.get());
+        simpleItem(ModItems.TUNGSTEN_BOOTS.get());
+
+        handheldItem(ModItems.ADAMANTITE_AXE.get());
+        handheldItem(ModItems.ADAMANTITE_HOE.get());
+        handheldItem(ModItems.ADAMANTITE_PICKAXE.get());
+        handheldItem(ModItems.ADAMANTITE_SHOVEL.get());
+        handheldItem(ModItems.ADAMANTITE_SWORD.get());
+        simpleItem(ModItems.ADAMANTITE_HELMET.get());
+        simpleItem(ModItems.ADAMANTITE_CHESTPLATE.get());
+        simpleItem(ModItems.ADAMANTITE_LEGGINGS.get());
+        simpleItem(ModItems.ADAMANTITE_BOOTS.get());
+
     }
     //Figure out how to do a generator for block item models, since it is missing
 

@@ -30,10 +30,30 @@
   "item.empyrean_ores.sapphire": "Sapphire",
   "block.empyrean_ores.sapphire_block": "Block of Sapphire",
   "block.empyrean_ores.sapphire_ore": "Sapphire Ore",
+  "item.empyrean_ores.sapphire_helmet": "Sapphire Helmet",
+  "item.empyrean_ores.sapphire_chestplate": "Sapphire Chestplate",
+  "item.empyrean_ores.sapphire_leggings": "Sapphire Leggings",
+  "item.empyrean_ores.sapphire_boots": "Sapphire Boots",
+
+  "item.empyrean_ores.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.empyrean_ores.sapphire_axe": "Sapphire Axe",
+  "item.empyrean_ores.sapphire_hoe": "Sapphire Hoe",
+  "item.empyrean_ores.sapphire_shovel": "Sapphire Shovel",
+  "item.empyrean_ores.sapphire_sword": "Sapphire Sword",
 
   "item.empyrean_ores.opal": "Opal",
   "block.empyrean_ores.opal_block": "Block of Opal",
   "block.empyrean_ores.opal_ore": "Opal Ore",
+  "item.empyrean_ores.opal_pickaxe": "Opal Pickaxe",
+  "item.empyrean_ores.opal_axe": "Opal Axe",
+  "item.empyrean_ores.opal_hoe": "Opal Hoe",
+  "item.empyrean_ores.opal_shovel": "Opal Shovel",
+  "item.empyrean_ores.opal_sword": "Opal Sword",
+
+  "item.empyrean_ores.opal_helmet": "Opal Helmet",
+  "item.empyrean_ores.opal_chestplate": "Opal Chestplate",
+  "item.empyrean_ores.opal_leggings": "Opal Leggings",
+  "item.empyrean_ores.opal_boots": "Opal Boots",
 
   "item.empyrean_ores.citrine": "Citrine",
   "block.empyrean_ores.citrine_block": "Block of Citrine",
@@ -58,6 +78,17 @@
   "block.empyrean_ores.tungsten_block": "Block of Tungsten",
   "block.empyrean_ores.tungsten_ore": "Tungsten Ore",
 
+  "item.empyrean_ores.tungsten_pickaxe": "Tungsten Pickaxe",
+  "item.empyrean_ores.tungsten_axe": "Tungsten Axe",
+  "item.empyrean_ores.tungsten_hoe": "Tungsten Hoe",
+  "item.empyrean_ores.tungsten_shovel": "Tungsten Shovel",
+  "item.empyrean_ores.tungsten_sword": "Tungsten Sword",
+
+  "item.empyrean_ores.tungsten_helmet": "Tungsten Helmet",
+  "item.empyrean_ores.tungsten_chestplate": "Tungsten Chestplate",
+  "item.empyrean_ores.tungsten_leggings": "Tungsten Leggings",
+  "item.empyrean_ores.tungsten_boots": "Tungsten Boots",
+
   "item.empyrean_ores.raw_aluminum": "Bauxite",
   "item.empyrean_ores.aluminum_ingot": "Aluminum Ingot",
   "block.empyrean_ores.aluminum_block": "Block of Aluminum",
@@ -78,6 +109,16 @@
   "block.empyrean_ores.adamite_block": "Block of Adamite",
   "block.empyrean_ores.adamantite_block": "Block of Adamantite",
 
+  "item.empyrean_ores.adamantite_pickaxe": "Adamantite Pickaxe",
+  "item.empyrean_ores.adamantite_axe": "Adamantite Axe",
+  "item.empyrean_ores.adamantite_hoe": "Adamantite Hoe",
+  "item.empyrean_ores.adamantite_shovel": "Adamantite Shovel",
+  "item.empyrean_ores.adamantite_sword": "Adamantite Sword",
+
+  "item.empyrean_ores.adamantite_helmet": "Adamantite Helmet",
+  "item.empyrean_ores.adamantite_chestplate": "Adamantite Chestplate",
+  "item.empyrean_ores.adamantite_leggings": "Adamantite Leggings",
+  "item.empyrean_ores.adamantite_boots": "Adamantite Boots",
 
   "itemGroup.empyrean_tab": "Empyrean Ores"
 }

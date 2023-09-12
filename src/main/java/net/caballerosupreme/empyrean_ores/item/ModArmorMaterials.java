@@ -18,7 +18,19 @@ public enum ModArmorMaterials implements ArmorMaterial {
             () -> { return Ingredient.of(ModItems.ALUMINUM_INGOT.get()); }),
     STEEL("steel", 20, new int[]{3, 6, 7, 3}, 15,
             SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F,
-            () -> { return Ingredient.of(ModItems.MID_CARBON_STEEL_INGOT.get()); });
+            () -> { return Ingredient.of(ModItems.MID_CARBON_STEEL_INGOT.get()); }),
+    SAPPHIRE("sapphire", 37, new int[]{3, 6, 8, 3}, 15,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 2.0F, 0.2F,
+            () -> { return Ingredient.of(ModItems.SAPPHIRE.get()); }),
+    OPAL("opal", 40, new int[]{4, 7, 9, 4}, 18,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.2F,
+            () -> { return Ingredient.of(ModItems.OPAL.get()); }),
+    TUNGSTEN("tungsten", 38, new int[]{4, 7, 9, 4}, 14,
+            SoundEvents.ARMOR_EQUIP_GOLD, 1.0F, 0.5F,
+            () -> { return Ingredient.of(ModItems.TUNGSTEN_INGOT.get()); }),
+    ADAMANTITE("adamantite", 43, new int[]{5, 8, 10, 5}, 30,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.2F,
+            () -> { return Ingredient.of(ModItems.ADAMANTITE_INGOT.get()); });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

@@ -36,6 +36,14 @@ public class ModTags {
                 public static final Tags.IOptionalNamedTag<Block> OPAL_TIER_TAG =
                         tag("needs_opal_tool");
 
+        //Tungsten Tier Tag
+                public static final Tags.IOptionalNamedTag<Block> TUNGSTEN_TIER_TAG =
+                        tag("needs_tungsten_tool");
+
+        //Adamantite Tier Tag
+                public static final Tags.IOptionalNamedTag<Block> ADAMANTITE_TIER_TAG =
+                        tag("needs_adamantite_tool");
+
 
         //Tag helper methods
         private static Tags.IOptionalNamedTag<Block> tag(String name) {
