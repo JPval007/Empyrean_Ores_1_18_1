@@ -143,6 +143,50 @@ public class ModItems {
 
     //------------------------------------------------------------------------------------------------------------------
     //Ruby Items
+    //Ruby Helmet
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Chestplate
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Leggings
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Boots
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Pickaxe
+    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Axe
+    public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Hoe
+    public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Shovel
+    public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Ruby Sword
+    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //------------------------------------------------------------------------------------------------------------------
     //Sapphire Items
@@ -242,57 +286,145 @@ public class ModItems {
 
     //------------------------------------------------------------------------------------------------------------------
     //Topaz Items
+    //Topaz Helmet
+    public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Chestplate
+    public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Leggings
+    public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Boots
+    public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Pickaxe
+    public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Axe
+    public static final RegistryObject<Item> TOPAZ_AXE = ITEMS.register("topaz_axe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Hoe
+    public static final RegistryObject<Item> TOPAZ_HOE = ITEMS.register("topaz_hoe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Shovel
+    public static final RegistryObject<Item> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Topaz Sword
+    public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //------------------------------------------------------------------------------------------------------------------
     //Titanium Items
+    //Titanium Helmet
+    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Chestplate
+    public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Leggings
+    public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Boots
+    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Pickaxe
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Axe
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Hoe
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Shovel
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+
+    //Titanium Sword
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
+            () -> new Item(
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //------------------------------------------------------------------------------------------------------------------
-    //Tungsten Items
+    //Tungsten Items (For experimentation only)
     //Tungsten Helmet
     public static final RegistryObject<Item> TUNGSTEN_HELMET = ITEMS.register("tungsten_helmet",
             () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentSlot.HEAD,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Chestplate
     public static final RegistryObject<Item> TUNGSTEN_CHESTPLATE = ITEMS.register("tungsten_chestplate",
             () -> new ArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.CHEST,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Leggings
     public static final RegistryObject<Item> TUNGSTEN_LEGGINGS = ITEMS.register("tungsten_leggings",
             () -> new ArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.LEGS,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Boots
     public static final RegistryObject<Item> TUNGSTEN_BOOTS = ITEMS.register("tungsten_boots",
             () -> new ArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.FEET,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
 
     //Tungsten Pickaxe
     public static final RegistryObject<Item> TUNGSTEN_PICKAXE = ITEMS.register("tungsten_pickaxe",
             () -> new PickaxeItem(ModTiers.TUNGSTEN_TIER,5,-4.1F,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Axe
     public static final RegistryObject<Item> TUNGSTEN_AXE = ITEMS.register("tungsten_axe",
             () -> new AxeItem(ModTiers.TUNGSTEN_TIER,5,-4.1F,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Hoe
     public static final RegistryObject<Item> TUNGSTEN_HOE = ITEMS.register("tungsten_hoe",
             () -> new HoeItem(ModTiers.TUNGSTEN_TIER,5,-4.1F,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Shovel
     public static final RegistryObject<Item> TUNGSTEN_SHOVEL = ITEMS.register("tungsten_shovel",
             () -> new ShovelItem(ModTiers.TUNGSTEN_TIER,5,-4.1F,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Sword
     public static final RegistryObject<Item> TUNGSTEN_SWORD = ITEMS.register("tungsten_sword",
-            () -> new SwordItem(ModTiers.TUNGSTEN_TIER,8,-4.1F,
-                    new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+            () -> new LevitationSwordItem(ModTiers.TUNGSTEN_TIER,8,-4.1F,
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //------------------------------------------------------------------------------------------------------------------
     //Aluminum Items

@@ -27,6 +27,17 @@
   "block.empyrean_ores.ruby_block": "Block of Ruby",
   "block.empyrean_ores.ruby_ore": "Ruby Ore",
 
+  "item.empyrean_ores.ruby_pickaxe": "Ruby Pickaxe",
+  "item.empyrean_ores.ruby_axe": "Ruby Axe",
+  "item.empyrean_ores.ruby_hoe": "Ruby Hoe",
+  "item.empyrean_ores.ruby_shovel": "Ruby Shovel",
+  "item.empyrean_ores.ruby_sword": "Ruby Sword",
+
+  "item.empyrean_ores.ruby_helmet": "Ruby Helmet",
+  "item.empyrean_ores.ruby_chestplate": "Ruby Chestplate",
+  "item.empyrean_ores.ruby_leggings": "Ruby Leggings",
+  "item.empyrean_ores.ruby_boots": "Ruby Boots",
+
   "item.empyrean_ores.sapphire": "Sapphire",
   "block.empyrean_ores.sapphire_block": "Block of Sapphire",
   "block.empyrean_ores.sapphire_ore": "Sapphire Ore",
@@ -63,10 +74,32 @@
   "block.empyrean_ores.topaz_block": "Block of Topaz",
   "block.empyrean_ores.topaz_ore": "Topaz Ore",
 
+  "item.empyrean_ores.topaz_pickaxe": "Topaz Pickaxe",
+  "item.empyrean_ores.topaz_axe": "Topaz Axe",
+  "item.empyrean_ores.topaz_hoe": "Topaz Hoe",
+  "item.empyrean_ores.topaz_shovel": "Topaz Shovel",
+  "item.empyrean_ores.topaz_sword": "Topaz Sword",
+
+  "item.empyrean_ores.topaz_helmet": "Topaz Helmet",
+  "item.empyrean_ores.topaz_chestplate": "Topaz Chestplate",
+  "item.empyrean_ores.topaz_leggings": "Topaz Leggings",
+  "item.empyrean_ores.topaz_boots": "Topaz Boots",
+
   "item.empyrean_ores.raw_titanium": "Titanite",
   "item.empyrean_ores.titanium_ingot": "Titanium Ingot",
   "block.empyrean_ores.titanium_block": "Block of Titanium",
   "block.empyrean_ores.titanium_ore": "Titanium Ore",
+
+  "item.empyrean_ores.titanium_pickaxe": "Titanium Pickaxe",
+  "item.empyrean_ores.titanium_axe": "Titanium Axe",
+  "item.empyrean_ores.titanium_hoe": "Titanium Hoe",
+  "item.empyrean_ores.titanium_shovel": "Titanium Shovel",
+  "item.empyrean_ores.titanium_sword": "Titanium Sword",
+
+  "item.empyrean_ores.titanium_helmet": "Titanium Helmet",
+  "item.empyrean_ores.titanium_chestplate": "Titanium Chestplate",
+  "item.empyrean_ores.titanium_leggings": "Titanium Leggings",
+  "item.empyrean_ores.titanium_boots": "Titanium Boots",
 
   "item.empyrean_ores.raw_zircon": "Raw Zircon",
   "item.empyrean_ores.zircon": "Zircon",
@@ -120,5 +153,7 @@
   "item.empyrean_ores.adamantite_leggings": "Adamantite Leggings",
   "item.empyrean_ores.adamantite_boots": "Adamantite Boots",
 
-  "itemGroup.empyrean_tab": "Empyrean Ores"
+  "itemGroup.empyrean_tab": "Empyrean Ores",
+  "itemGroup.empyrean_experimental_tab": "Empyrean Experimental Features"
+
 }

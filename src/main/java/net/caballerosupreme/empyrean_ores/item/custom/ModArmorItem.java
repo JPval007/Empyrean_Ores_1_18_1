@@ -18,7 +18,7 @@ public class ModArmorItem extends ArmorItem{
 
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.STEEL,
+                    .put(ModArmorMaterials.TUNGSTEN,
                             new MobEffectInstance(MobEffects.NIGHT_VISION, 400, 1,false,false,false)).build();
 
     //Constructor matching super

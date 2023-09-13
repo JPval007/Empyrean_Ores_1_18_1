@@ -83,6 +83,36 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ADAMANTITE_LEGGINGS.get());
         simpleItem(ModItems.ADAMANTITE_BOOTS.get());
 
+        handheldItem(ModItems.RUBY_AXE.get());
+        handheldItem(ModItems.RUBY_HOE.get());
+        handheldItem(ModItems.RUBY_PICKAXE.get());
+        handheldItem(ModItems.RUBY_SHOVEL.get());
+        handheldItem(ModItems.RUBY_SWORD.get());
+        simpleItem(ModItems.RUBY_HELMET.get());
+        simpleItem(ModItems.RUBY_CHESTPLATE.get());
+        simpleItem(ModItems.RUBY_LEGGINGS.get());
+        simpleItem(ModItems.RUBY_BOOTS.get());
+
+        handheldItem(ModItems.TOPAZ_AXE.get());
+        handheldItem(ModItems.TOPAZ_HOE.get());
+        handheldItem(ModItems.TOPAZ_PICKAXE.get());
+        handheldItem(ModItems.TOPAZ_SHOVEL.get());
+        handheldItem(ModItems.TOPAZ_SWORD.get());
+        simpleItem(ModItems.TOPAZ_HELMET.get());
+        simpleItem(ModItems.TOPAZ_CHESTPLATE.get());
+        simpleItem(ModItems.TOPAZ_LEGGINGS.get());
+        simpleItem(ModItems.TOPAZ_BOOTS.get());
+
+        handheldItem(ModItems.TITANIUM_AXE.get());
+        handheldItem(ModItems.TITANIUM_HOE.get());
+        handheldItem(ModItems.TITANIUM_PICKAXE.get());
+        handheldItem(ModItems.TITANIUM_SHOVEL.get());
+        handheldItem(ModItems.TITANIUM_SWORD.get());
+        simpleItem(ModItems.TITANIUM_HELMET.get());
+        simpleItem(ModItems.TITANIUM_CHESTPLATE.get());
+        simpleItem(ModItems.TITANIUM_LEGGINGS.get());
+        simpleItem(ModItems.TITANIUM_BOOTS.get());
+
     }
     //Figure out how to do a generator for block item models, since it is missing
 
