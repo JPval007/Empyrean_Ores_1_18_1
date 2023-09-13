@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "empyrean_ores:adamite_block",
+    "empyrean_ores:adamantite_block"
 
   ]
 }

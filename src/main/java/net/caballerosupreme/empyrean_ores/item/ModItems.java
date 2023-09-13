@@ -145,22 +145,22 @@ public class ModItems {
     //Ruby Items
     //Ruby Helmet
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.RUBY,EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Ruby Chestplate
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.RUBY,EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Ruby Leggings
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.RUBY,EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Ruby Boots
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.RUBY,EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Ruby Pickaxe
@@ -288,22 +288,22 @@ public class ModItems {
     //Topaz Items
     //Topaz Helmet
     public static final RegistryObject<Item> TOPAZ_HELMET = ITEMS.register("topaz_helmet",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ,EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Topaz Chestplate
     public static final RegistryObject<Item> TOPAZ_CHESTPLATE = ITEMS.register("topaz_chestplate",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ,EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Topaz Leggings
     public static final RegistryObject<Item> TOPAZ_LEGGINGS = ITEMS.register("topaz_leggings",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ,EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Topaz Boots
     public static final RegistryObject<Item> TOPAZ_BOOTS = ITEMS.register("topaz_boots",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TOPAZ,EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Topaz Pickaxe
@@ -335,22 +335,22 @@ public class ModItems {
     //Titanium Items
     //Titanium Helmet
     public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM,EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Titanium Chestplate
     public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM,EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Titanium Leggings
     public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM,EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Titanium Boots
     public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots",
-            () -> new Item(
+            () -> new ArmorItem(ModArmorMaterials.TITANIUM,EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Titanium Pickaxe
@@ -382,22 +382,22 @@ public class ModItems {
     //Tungsten Items (For experimentation only)
     //Tungsten Helmet
     public static final RegistryObject<Item> TUNGSTEN_HELMET = ITEMS.register("tungsten_helmet",
-            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.TUNGSTEN, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Chestplate
     public static final RegistryObject<Item> TUNGSTEN_CHESTPLATE = ITEMS.register("tungsten_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.CHEST,
+            () -> new ModArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Leggings
     public static final RegistryObject<Item> TUNGSTEN_LEGGINGS = ITEMS.register("tungsten_leggings",
-            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.LEGS,
+            () -> new ModArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.LEGS,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Boots
     public static final RegistryObject<Item> TUNGSTEN_BOOTS = ITEMS.register("tungsten_boots",
-            () -> new ArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.FEET,
+            () -> new ModArmorItem(ModArmorMaterials.TUNGSTEN,EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
 

@@ -19,9 +19,8 @@
     "empyrean_ores:tungsten_ore",
     "empyrean_ores:tungsten_block",
     "empyrean_ores:zircon_ore",
-    "empyrean_ores:zircon_block",
-    "empyrean_ores:adamite_block",
-    "empyrean_ores:adamantite_block"
+    "empyrean_ores:zircon_block"
+
 
 
   ]

@@ -117,12 +117,12 @@ public class ModBlocks {
 
     //ADAMITE
     public static final RegistryObject<Block> ADAMITE_BLOCK = registerBlock("adamite_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(4f,16f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
 
     //ADAMANTITE
     public static final RegistryObject<Block> ADAMANTITE_BLOCK = registerBlock("adamantite_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .strength(6f,17f).requiresCorrectToolForDrops()), ModCreativeModeTab.EMPYREAN_TAB);
 
 
