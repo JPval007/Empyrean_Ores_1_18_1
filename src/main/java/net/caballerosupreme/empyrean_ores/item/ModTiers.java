@@ -40,13 +40,13 @@ public class ModTiers {
 
     //Tungsten Tier
     public static final Tier TUNGSTEN_TIER = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 2800, 1.0f, 10.0f, 20
+            new ForgeTier(5, 2800, 5.0f, 10.0f, 20
                     , ModTags.Blocks.TUNGSTEN_TIER_TAG,()->Ingredient.of(ModItems.TUNGSTEN_INGOT.get())),
             new ResourceLocation(EmpyreanOres.MOD_ID, "tungsten_tier"), List.of(ModTiers.OPAL_TIER), List.of());
 
     //Adamantite Tier
     public static final Tier ADAMANTITE_TIER = TierSortingRegistry.registerTier(
-            new ForgeTier(5, 3500, 20.0f, 15.0f, 30
+            new ForgeTier(5, 3500, 25.0f, 15.0f, 30
                     , ModTags.Blocks.ADAMANTITE_TIER_TAG,()->Ingredient.of(ModItems.ADAMANTITE_INGOT.get())),
             new ResourceLocation(EmpyreanOres.MOD_ID, "adamantite_tier"), List.of(ModTiers.TUNGSTEN_TIER), List.of());
 

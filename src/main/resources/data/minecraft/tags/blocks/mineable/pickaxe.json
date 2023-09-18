@@ -23,7 +23,8 @@
     "empyrean_ores:zircon_ore",
     "empyrean_ores:zircon_block",
     "empyrean_ores:adamite_block",
-    "empyrean_ores:adamantite_block"
+    "empyrean_ores:adamantite_block",
+    "empyrean_ores:debug_block"
 
   ]
 }

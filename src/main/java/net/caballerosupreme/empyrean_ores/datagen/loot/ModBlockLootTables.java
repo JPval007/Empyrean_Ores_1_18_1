@@ -44,6 +44,8 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ADAMITE_BLOCK.get());
         this.dropSelf(ModBlocks.ADAMANTITE_BLOCK.get());
 
+        this.dropSelf(ModBlocks.DEBUG_BLOCK.get());
+
 
     }
 

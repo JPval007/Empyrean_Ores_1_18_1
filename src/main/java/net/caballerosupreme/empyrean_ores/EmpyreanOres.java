@@ -1,7 +1,9 @@
 package net.caballerosupreme.empyrean_ores;
 
 import net.caballerosupreme.empyrean_ores.block.ModBlocks;
+import net.caballerosupreme.empyrean_ores.effect.ModEffects;
 import net.caballerosupreme.empyrean_ores.item.ModItems;
+import net.caballerosupreme.empyrean_ores.potion.ModPotions;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -44,7 +46,10 @@ public class EmpyreanOres
         ModItems.register(eventBus);
         //Register Blocks class
         ModBlocks.register(eventBus);
-        //Register Mod Tiers class
+        //Register Mod Effects Class
+        ModEffects.register(eventBus);
+        //Register Mod Potions Class
+        ModPotions.register(eventBus);
 
         //Placed features (worldgen)
 

@@ -119,7 +119,7 @@ public class ModItems {
 
     //Steel Axe
     public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe",
-            () -> new AxeItem(ModTiers.STEEL_TIER,2,4f,
+            () -> new AxeItem(ModTiers.STEEL_TIER,5,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Steel Hoe
@@ -192,27 +192,27 @@ public class ModItems {
     //Sapphire Items
     //Sapphire Pickaxe
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
-            () -> new PickaxeItem(ModTiers.SAPPHIRE_TIER,2,4f,
+            () -> new PickaxeItem(ModTiers.SAPPHIRE_TIER,3,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Sapphire Axe
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
-            () -> new AxeItem(ModTiers.SAPPHIRE_TIER,2,4f,
+            () -> new AxeItem(ModTiers.SAPPHIRE_TIER,5,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Sapphire Hoe
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
-            () -> new HoeItem(ModTiers.SAPPHIRE_TIER,2,4,
+            () -> new HoeItem(ModTiers.SAPPHIRE_TIER,1,4,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Sapphire Shovel
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
-            () -> new ShovelItem(ModTiers.SAPPHIRE_TIER,2,4f,
+            () -> new ShovelItem(ModTiers.SAPPHIRE_TIER,1,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Sapphire Sword
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
-            () -> new SwordItem(ModTiers.SAPPHIRE_TIER,2,5f,
+            () -> new SwordItem(ModTiers.SAPPHIRE_TIER,4,5f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Sapphire Helmet
@@ -239,27 +239,27 @@ public class ModItems {
 
     //Opal Pickaxe
     public static final RegistryObject<Item> OPAL_PICKAXE = ITEMS.register("opal_pickaxe",
-            () -> new PickaxeItem(ModTiers.OPAL_TIER,4,4f,
+            () -> new PickaxeItem(ModTiers.OPAL_TIER,3,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Opal Axe
     public static final RegistryObject<Item> OPAL_AXE = ITEMS.register("opal_axe",
-            () -> new AxeItem(ModTiers.OPAL_TIER,4,4f,
+            () -> new AxeItem(ModTiers.OPAL_TIER,6,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Opal Hoe
     public static final RegistryObject<Item> OPAL_HOE = ITEMS.register("opal_hoe",
-            () -> new HoeItem(ModTiers.OPAL_TIER,4,4,
+            () -> new HoeItem(ModTiers.OPAL_TIER,2,4,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Opal Shovel
     public static final RegistryObject<Item> OPAL_SHOVEL = ITEMS.register("opal_shovel",
-            () -> new ShovelItem(ModTiers.OPAL_TIER,4,4f,
+            () -> new ShovelItem(ModTiers.OPAL_TIER,2,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Opal Sword
     public static final RegistryObject<Item> OPAL_SWORD = ITEMS.register("opal_sword",
-            () -> new SwordItem(ModTiers.OPAL_TIER,4,5f,
+            () -> new SwordItem(ModTiers.OPAL_TIER,5,5f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Opal Helmet
@@ -408,7 +408,7 @@ public class ModItems {
 
     //Tungsten Axe
     public static final RegistryObject<Item> TUNGSTEN_AXE = ITEMS.register("tungsten_axe",
-            () -> new AxeItem(ModTiers.TUNGSTEN_TIER,5,-4.1F,
+            () -> new AxeItem(ModTiers.TUNGSTEN_TIER,12,-4.1F,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //Tungsten Hoe
@@ -423,7 +423,7 @@ public class ModItems {
 
     //Tungsten Sword
     public static final RegistryObject<Item> TUNGSTEN_SWORD = ITEMS.register("tungsten_sword",
-            () -> new LevitationSwordItem(ModTiers.TUNGSTEN_TIER,8,-4.1F,
+            () -> new LevitationSwordItem(ModTiers.TUNGSTEN_TIER,10,-1.1F,
                     new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //------------------------------------------------------------------------------------------------------------------
@@ -469,27 +469,27 @@ public class ModItems {
     //Adamantite Items
     //Adamantite Pickaxe
     public static final RegistryObject<Item> ADAMANTITE_PICKAXE = ITEMS.register("adamantite_pickaxe",
-            () -> new PickaxeItem(ModTiers.ADAMANTITE_TIER,4,4f,
+            () -> new PickaxeItem(ModTiers.ADAMANTITE_TIER,2,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Adamantite Axe
     public static final RegistryObject<Item> ADAMANTITE_AXE = ITEMS.register("adamantite_axe",
-            () -> new AxeItem(ModTiers.ADAMANTITE_TIER,4,4f,
+            () -> new AxeItem(ModTiers.ADAMANTITE_TIER,6,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Adamantite Hoe
     public static final RegistryObject<Item> ADAMANTITE_HOE = ITEMS.register("adamantite_hoe",
-            () -> new HoeItem(ModTiers.ADAMANTITE_TIER,4,4,
+            () -> new HoeItem(ModTiers.ADAMANTITE_TIER,2,4,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Adamantite Shovel
     public static final RegistryObject<Item> ADAMANTITE_SHOVEL = ITEMS.register("adamantite_shovel",
-            () -> new ShovelItem(ModTiers.ADAMANTITE_TIER,4,4f,
+            () -> new ShovelItem(ModTiers.ADAMANTITE_TIER,2,4f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Adamantite Sword
     public static final RegistryObject<Item> ADAMANTITE_SWORD = ITEMS.register("adamantite_sword",
-            () -> new SwordItem(ModTiers.ADAMANTITE_TIER,4,5f,
+            () -> new SwordItem(ModTiers.ADAMANTITE_TIER,5,5f,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
 
     //Adamantite Helmet
@@ -511,6 +511,21 @@ public class ModItems {
     public static final RegistryObject<Item> ADAMANTITE_BOOTS = ITEMS.register("adamantite_boots",
             () -> new ArmorItem(ModArmorMaterials.ADAMANTITE,EquipmentSlot.FEET,
                     new Item.Properties().tab(ModCreativeModeTab.EMPYREAN_TAB)));
+
+    //------------------------------------------------------------------------------------------------------------------
+    //COMMANDO ARMOR
+    public static final RegistryObject<Item> COMMANDO_HELMET = ITEMS.register("commando_helmet",
+            () -> new ArmorItem(ModArmorMaterials.COMMANDO, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+    public static final RegistryObject<Item> COMMANDO_CHESTPLATE = ITEMS.register("commando_chestplate",
+                () -> new ArmorItem(ModArmorMaterials.COMMANDO, EquipmentSlot.CHEST,
+                        new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+    public static final RegistryObject<Item> COMMANDO_PANTS = ITEMS.register("commando_pants",
+                    () -> new ArmorItem(ModArmorMaterials.COMMANDO, EquipmentSlot.LEGS,
+                            new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
+    public static final RegistryObject<Item> COMMANDO_BOOTS = ITEMS.register("commando_boots",
+                        () -> new ArmorItem(ModArmorMaterials.COMMANDO, EquipmentSlot.FEET,
+                                new Item.Properties().tab(ModCreativeModeTab.DEBUG_TAB)));
 
     //------------------------------------------------------------------------------------------------------------------
 

@@ -68,5 +68,7 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         simpleBlockItem(ModBlocks.ADAMITE_BLOCK.get(), models().cubeAll("adamite_block",new ResourceLocation("empyrean_ores:block/adamite_block")));
         simpleBlockItem(ModBlocks.ADAMANTITE_BLOCK.get(), models().cubeAll("adamantite_block",new ResourceLocation("empyrean_ores:block/adamantite_block")));
 
+        simpleBlock(ModBlocks.DEBUG_BLOCK.get());
+        simpleBlockItem(ModBlocks.DEBUG_BLOCK.get(), models().cubeAll("debug_block",new ResourceLocation("empyrean_ores:block/debug_block")));
     }
 }

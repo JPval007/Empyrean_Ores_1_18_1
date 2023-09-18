@@ -153,7 +153,23 @@
   "item.empyrean_ores.adamantite_leggings": "Adamantite Leggings",
   "item.empyrean_ores.adamantite_boots": "Adamantite Boots",
 
+  "item.empyrean_ores.commando_helmet": "Commando Helmet",
+  "item.empyrean_ores.commando_chestplate": "Commando Chestplate",
+  "item.empyrean_ores.commando_pants": "Commando Pants",
+  "item.empyrean_ores.commando_boots": "Commando Boots",
+
+  "block.empyrean_ores.debug_block": "Experimental Block",
+
   "itemGroup.empyrean_tab": "Empyrean Ores",
-  "itemGroup.empyrean_experimental_tab": "Empyrean Experimental Features"
+  "itemGroup.empyrean_experimental_tab": "Empyrean Experimental Features",
+
+  "effect.empyrean_ores.freeze": "Freeze",
+  "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
+  "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
+  "item.minecraft.lingering_potion.effect.freeze_potion": "Lingering Potion of Freeze",
+
+  "effect.empyrean_ores.burning": "Burning",
+  "effect.empyrean_ores.spice": "Spice"
+
 
 }

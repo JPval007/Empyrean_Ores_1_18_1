@@ -113,6 +113,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TITANIUM_LEGGINGS.get());
         simpleItem(ModItems.TITANIUM_BOOTS.get());
 
+        simpleItem(ModItems.COMMANDO_HELMET.get());
+        simpleItem(ModItems.COMMANDO_CHESTPLATE.get());
+        simpleItem(ModItems.COMMANDO_PANTS.get());
+        simpleItem(ModItems.COMMANDO_BOOTS.get());
+
     }
     //Figure out how to do a generator for block item models, since it is missing
 

@@ -26,7 +26,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
             SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.2F,
             () -> { return Ingredient.of(ModItems.OPAL.get()); }),
     TUNGSTEN("tungsten", 38, new int[]{4, 7, 9, 4}, 14,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1.0F, 0.5F,
+            SoundEvents.ARMOR_EQUIP_GOLD, 0.1F, 1.0F,
             () -> { return Ingredient.of(ModItems.TUNGSTEN_INGOT.get()); }),
     ADAMANTITE("adamantite", 43, new int[]{5, 8, 10, 5}, 30,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.2F,
@@ -42,7 +42,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     TITANIUM("titanium", 10, new int[]{1, 4, 5, 2}, 20,
             SoundEvents.ARMOR_EQUIP_GOLD, 0.0F, 0.0F,
-            () -> { return Ingredient.of(ModItems.TITANIUM_INGOT.get()); });
+            () -> { return Ingredient.of(ModItems.TITANIUM_INGOT.get()); }),
+    COMMANDO("commando_armor", 10, new int[]{4, 7, 9, 4}, 40,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0F, 0.8F,
+            () -> { return Ingredient.of(ModItems.ADAMANTITE_INGOT.get()); });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;
