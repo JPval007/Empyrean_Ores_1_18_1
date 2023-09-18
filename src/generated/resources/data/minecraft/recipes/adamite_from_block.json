@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "empyrean_ores:adamite_block"
+    }
+  ],
+  "result": {
+    "item": "empyrean_ores:adamite",
+    "count": 9
+  }
+}

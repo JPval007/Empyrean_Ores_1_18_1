@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "empyrean_ores:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "empyrean_ores:sapphire",
+    "count": 9
+  }
+}

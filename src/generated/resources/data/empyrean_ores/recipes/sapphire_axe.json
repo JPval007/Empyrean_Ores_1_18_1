@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "E#",
+    "E "
+  ],
+  "key": {
+    "#": {
+      "item": "empyrean_ores:sapphire"
+    },
+    "E": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "empyrean_ores:sapphire_axe"
+  }
+}

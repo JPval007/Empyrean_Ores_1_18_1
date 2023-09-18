@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "empyrean_ores:tungsten_block"
+    }
+  ],
+  "result": {
+    "item": "empyrean_ores:tungsten_ingot",
+    "count": 9
+  }
+}

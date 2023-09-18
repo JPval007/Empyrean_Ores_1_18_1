@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "empyrean_ores:low_carbon_steel_ingot",
+    "empyrean_ores:mid_carbon_steel_ingot",
+    "empyrean_ores:high_carbon_steel_ingot",
+    "empyrean_ores:aluminum_ingot",
+    "empyrean_ores:titanium_ingot",
+    "empyrean_ores:tungsten_ingot",
+    "empyrean_ores:adamantite_ingot"
+
+
+  ]
+}

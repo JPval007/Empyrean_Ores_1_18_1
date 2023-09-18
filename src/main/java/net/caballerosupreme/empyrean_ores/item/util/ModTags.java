@@ -45,6 +45,7 @@ public class ModTags {
                         tag("needs_adamantite_tool");
 
 
+
         //Tag helper methods
         private static Tags.IOptionalNamedTag<Block> tag(String name) {
 
@@ -66,6 +67,15 @@ public class ModTags {
         //Example steel ingot tag
         public static final Tags.IOptionalNamedTag<Item> STEEL_INGOTS =
                 tag("steel_ingots");
+
+        //Adamite Crafting Items
+        public static final Tags.IOptionalNamedTag<Item> ADAMITE_CRAFTING_ITEMS =
+                tag("adamite_crafting_items");
+
+        //Mod Metals
+        public static final Tags.IOptionalNamedTag<Item> MOD_METALS =
+                tag("mod_metals");
+
 
 
         //Helper Methods

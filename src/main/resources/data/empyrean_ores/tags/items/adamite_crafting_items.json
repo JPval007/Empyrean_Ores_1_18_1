@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "empyrean_ores:high_carbon_steel_ingot",
+    "empyrean_ores:sapphire",
+    "empyrean_ores:ruby",
+    "empyrean_ores:zircon",
+    "empyrean_ores:citrine",
+    "empyrean_ores:topaz",
+    "empyrean_ores:opal",
+    "empyrean_ores:tungsten_ingot",
+    "empyrean_ores:titanium_ingot"
+
+  ]
+}

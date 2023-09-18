@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " E ",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "empyrean_ores:opal"
+    },
+    "E": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "empyrean_ores:opal_pickaxe"
+  }
+}
