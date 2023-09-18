@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "empyrean_ores:low_carbon_steel_block"
+    }
+  ],
+  "result": {
+    "item": "empyrean_ores:low_carbon_steel_ingot",
+    "count": 9
+  }
+}
