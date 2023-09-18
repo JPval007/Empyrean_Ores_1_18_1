@@ -18,7 +18,7 @@ public class ModPotions {
             POTIONS.register("freeze_potion", () -> new Potion(new MobEffectInstance(ModEffects.FREEZE.get(),200,0)));
 
     public static final RegistryObject<Potion> SPICE_POTION =
-            POTIONS.register("spice_potion", ()-> new Potion(new MobEffectInstance(ModEffects.SPICE.get(),20,0)));
+            POTIONS.register("spice_potion", ()-> new Potion(new MobEffectInstance(ModEffects.SPICE.get(),200,0)));
 
     public static void register(IEventBus eventBus){
         POTIONS.register(eventBus);

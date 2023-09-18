@@ -163,13 +163,17 @@
   "itemGroup.empyrean_tab": "Empyrean Ores",
   "itemGroup.empyrean_experimental_tab": "Empyrean Experimental Features",
 
+  "effect.empyrean_ores.spice": "Spice",
+  "item.minecraft.potion.effect.spice_potion": "Spice Potion",
+  "item.minecraft.splash_potion.effect.spice_potion": "Splash Potion of Spice",
+  "item.minecraft.lingering_potion.effect.spice_potion": "Lingering Potion of Spice",
+
   "effect.empyrean_ores.freeze": "Freeze",
   "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
   "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
   "item.minecraft.lingering_potion.effect.freeze_potion": "Lingering Potion of Freeze",
 
-  "effect.empyrean_ores.burning": "Burning",
-  "effect.empyrean_ores.spice": "Spice"
+  "effect.empyrean_ores.burning": "Burning"
 
 
 }
