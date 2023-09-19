@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "empyrean_ores:opal_ore"
+    },
+    "result": "empyrean_ores:opal",
+    "experience": 1.0,
+    "cookingtime": 200
+}

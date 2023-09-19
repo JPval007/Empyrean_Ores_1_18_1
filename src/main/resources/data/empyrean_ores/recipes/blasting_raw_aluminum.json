@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "empyrean_ores:raw_aluminum"
+    },
+    "result": "empyrean_ores:aluminum_ingot",
+    "experience": 0.5,
+    "cookingtime": 100
+}

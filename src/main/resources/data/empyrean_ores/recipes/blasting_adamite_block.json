@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "empyrean_ores:adamite_block"
+    },
+    "result": "empyrean_ores:adamantite_block",
+    "experience": 0.3,
+    "cookingtime": 300
+}

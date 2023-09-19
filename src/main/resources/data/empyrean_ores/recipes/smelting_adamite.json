@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "empyrean_ores:adamite"
+    },
+    "result": "empyrean_ores:adamantite_ingot",
+    "experience": 0.95,
+    "cookingtime": 300
+}

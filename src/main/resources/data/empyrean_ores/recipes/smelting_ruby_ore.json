@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "empyrean_ores:ruby_ore"
+    },
+    "result": "empyrean_ores:ruby",
+    "experience": 0.7,
+    "cookingtime": 200
+}

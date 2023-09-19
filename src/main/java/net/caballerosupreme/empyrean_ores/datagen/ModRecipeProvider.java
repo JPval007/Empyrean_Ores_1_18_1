@@ -5,12 +5,11 @@ import net.caballerosupreme.empyrean_ores.item.ModItems;
 import net.caballerosupreme.empyrean_ores.item.util.ModTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.BlastingRecipe;
+import net.minecraft.world.item.crafting.SmeltingRecipe;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
@@ -22,7 +21,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
-
+        //SMELTING & BLASTING RECIPES
+        //Don't know how so I used an online json file generator
         //--------------------------------------------------------------------------------------------------------------
         //STEEL RECIPES
         ShapedRecipeBuilder.shaped(ModBlocks.HIGH_CARBON_STEEL_BLOCK.get(),1)
@@ -278,6 +278,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_aluminum_ingot", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.ALUMINUM_INGOT.get()).build()))
                 .save(pFinishedRecipeConsumer);
+
 
         //--------------------------------------------------------------------------------------------------------------
         //Ruby Recipes

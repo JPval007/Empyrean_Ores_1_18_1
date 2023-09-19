@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "empyrean_ores:sapphire_ore"
+    },
+    "result": "empyrean_ores:sapphire",
+    "experience": 0.9,
+    "cookingtime": 200
+}

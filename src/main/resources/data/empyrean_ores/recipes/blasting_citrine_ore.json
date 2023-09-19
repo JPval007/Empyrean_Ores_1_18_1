@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "empyrean_ores:citrine_ore"
+    },
+    "result": "empyrean_ores:citrine",
+    "experience": 0.6,
+    "cookingtime": 100
+}

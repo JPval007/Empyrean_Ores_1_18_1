@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "empyrean_ores:topaz_ore"
+    },
+    "result": "empyrean_ores:topaz",
+    "experience": 0.7,
+    "cookingtime": 100
+}
