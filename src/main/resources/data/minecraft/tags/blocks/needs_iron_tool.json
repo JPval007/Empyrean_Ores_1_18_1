@@ -2,24 +2,10 @@
   "replace": false,
   "values": [
     "empyrean_ores:low_carbon_steel_block",
-    "empyrean_ores:mid_carbon_steel_block",
-    "empyrean_ores:high_carbon_steel_block",
     "empyrean_ores:ruby_ore",
-    "empyrean_ores:ruby_block",
     "empyrean_ores:citrine_ore",
-    "empyrean_ores:citrine_block",
-    "empyrean_ores:sapphire_ore",
-    "empyrean_ores:sapphire_block",
-    "empyrean_ores:opal_ore",
-    "empyrean_ores:opal_block",
-    "empyrean_ores:titanium_ore",
-    "empyrean_ores:titanium_block",
     "empyrean_ores:topaz_ore",
-    "empyrean_ores:topaz_block",
-    "empyrean_ores:tungsten_ore",
-    "empyrean_ores:tungsten_block",
-    "empyrean_ores:zircon_ore",
-    "empyrean_ores:zircon_block"
+    "empyrean_ores:zircon_ore"
 
 
 

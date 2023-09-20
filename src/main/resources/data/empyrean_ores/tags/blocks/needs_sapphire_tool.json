@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "empyrean_ores:opal_ore",
+    "empyrean_ores:opal_block"
+
 
   ]
 }

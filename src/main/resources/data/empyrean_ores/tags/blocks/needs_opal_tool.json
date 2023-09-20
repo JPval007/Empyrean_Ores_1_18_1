@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "empyrean_ores:adamite_block",
+    "empyrean_ores:adamantite_block",
+    "empyrean_ores:titanium_block",
+    "empyrean_ores:titanium_ore",
+    "empyrean_ores:tungsten_ore",
+    "empyrean_ores:tungsten_block"
 
   ]
 }

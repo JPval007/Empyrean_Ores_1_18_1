@@ -1,8 +1,13 @@
 {
   "replace": false,
   "values": [
-    "empyrean_ores:adamite_block",
-    "empyrean_ores:adamantite_block"
+    "empyrean_ores:ruby_block",
+    "empyrean_ores:citrine_block",
+    "empyrean_ores:sapphire_block",
+    "empyrean_ores:sapphire_ore",
+    "empyrean_ores:zircon_block",
+    "empyrean_ores:topaz_block"
+
 
   ]
 }

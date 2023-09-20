@@ -23,18 +23,18 @@ public class ModPlacedFeatures {
                     HeightRangePlacement.uniform(VerticalAnchor.absolute(35),VerticalAnchor.absolute(80)))));
                                                                         //Bottom                            //Top
     public static final PlacedFeature SAPPHIRE_ORE_PLACEMENT =
-            PlacementUtils.register("sapphire_ore_placed", ModConfiguredFeatures.SAPPHIRE_CONFIGURED_FEATURE.placed(commonOrePlacement(55,
+            PlacementUtils.register("sapphire_ore_placed", ModConfiguredFeatures.SAPPHIRE_CONFIGURED_FEATURE.placed(commonOrePlacement(50,
                     HeightRangePlacement.uniform(VerticalAnchor.absolute(80),VerticalAnchor.absolute(180)))));
                                                                         //Bottom                            //Top
     public static final PlacedFeature OPAL_ORE_PLACEMENT =
-            PlacementUtils.register("opal_ore_placed", ModConfiguredFeatures.OPAL_CONFIGURED_FEATURE.placed(commonOrePlacement(24,
-                    HeightRangePlacement.uniform(VerticalAnchor.absolute(100),VerticalAnchor.absolute(180)))));
+            PlacementUtils.register("opal_ore_placed", ModConfiguredFeatures.OPAL_CONFIGURED_FEATURE.placed(commonOrePlacement(50,
+                    HeightRangePlacement.uniform(VerticalAnchor.absolute(100),VerticalAnchor.absolute(250)))));
                                                                         //Bottom                            //Top
     public static final PlacedFeature TITANIUM_ORE_PLACEMENT =
-            PlacementUtils.register("titanium_ore_placed", ModConfiguredFeatures.TITANIUM_CONFIGURED_FEATURE.placed(commonOrePlacement(24,
+            PlacementUtils.register("titanium_ore_placed", ModConfiguredFeatures.TITANIUM_CONFIGURED_FEATURE.placed(commonOrePlacement(16,
                     HeightRangePlacement.uniform(VerticalAnchor.absolute(50),VerticalAnchor.absolute(110)))));
    public static final PlacedFeature TUNGSTEN_ORE_PLACEMENT =
-            PlacementUtils.register("titanium_ore_placed", ModConfiguredFeatures.TUNGSTEN_CONFIGURED_FEATURE.placed(commonOrePlacement(24,
+            PlacementUtils.register("titanium_ore_placed", ModConfiguredFeatures.TUNGSTEN_CONFIGURED_FEATURE.placed(commonOrePlacement(20,
                     HeightRangePlacement.uniform(VerticalAnchor.absolute(50),VerticalAnchor.absolute(110)))));
 
     public static final PlacedFeature CITRINE_ORE_PLACEMENT =
@@ -42,8 +42,8 @@ public class ModPlacedFeatures {
                 HeightRangePlacement.uniform(VerticalAnchor.absolute(55),VerticalAnchor.absolute(105)))));
                                                                         //Bottom                            //Top
    public static final PlacedFeature TOPAZ_ORE_PLACEMENT =
-        PlacementUtils.register("topaz_ore_placed", ModConfiguredFeatures.TOPAZ_CONFIGURED_FEATURE.placed(commonOrePlacement(12,
-                HeightRangePlacement.uniform(VerticalAnchor.absolute(40),VerticalAnchor.absolute(75)))));
+        PlacementUtils.register("topaz_ore_placed", ModConfiguredFeatures.TOPAZ_CONFIGURED_FEATURE.placed(commonOrePlacement(25,
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(20),VerticalAnchor.absolute(120)))));
                                                                     //Bottom                            //Top
    public static final PlacedFeature ZIRCON_ORE_PLACEMENT =
         PlacementUtils.register("zircon_ore_placed", ModConfiguredFeatures.ZIRCON_CONFIGURED_FEATURE.placed(commonOrePlacement(10,
